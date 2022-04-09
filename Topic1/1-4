@@ -1,0 +1,17 @@
+1.  Single DC in NY and DC; East US Azure Region has a peering location in NY; company only has Azure resources in the EAST US region, only 
+EzpressRoute Unlimited data plans.  The solution must minimize costs.  Implement ExpressRoute to Support up to 1 Gbps.  Which type of ExpressRoute Circuits
+should you create?
+###Express Route Standard
+###Keyword-Express Route Support up to 1 Gbps local circuit price per month
+###Notes- 1 Gbps $1200 Standard circuit price per month
+###Notes $5700 Premium circuit price per month 1 Gbps
+2.  Planning on Azure point-to-site (P2S) VPN that will use OpenVPN.  Users will authenticate by an on premises AD domain.
+    Which additional service should you deployu to support VPN auth?
+### B. a RADIUS server
+3.  Plan to configure BGP for a Site-to-Site VPN connection between a datacenter and Azure.  Which two Azure resources houlsd you configure?
+ Choose 2.
+ ### A. a virtual network gateway
+ ### B. a local network gateway
+ 4.  fail to establish a Site-to-Site VPN connetion between your companyes main office and an Azure virtual network.  Need to troubleshoot what preents
+ you from establishing the IPSec tunnel.  Which diagnostic log should you review?
+ ### A. IKE Diagnostic Log
